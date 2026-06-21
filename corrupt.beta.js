@@ -1,12 +1,13 @@
-// ==UserScript==
-// @name         corrupt-Updating Script
-// @version      2.0.0
-// @match        *https://discord.com/*
-// @updateURL    https://github.com/absentservices0-beep/corrupt-control/blob/main/corrupt.beta.js
-// @downloadURL  https://github.com/absentservices0-beep/corrupt-control/blob/main/corrupt.beta.js
+// @name         Corrupt Main
+// @author       @ogunworthy
+// @description  Main Script
+// @match        https://discord.com/*
+// @connect      raw.githubusercontent.com
 // @grant        GM_xmlhttpRequest
 // @grant        GM_getValue
 // @grant        GM_setValue
+// @grant        GM_deleteValue
+// @run-at       document-start
 // ==/UserScript==
 
 
